@@ -24,11 +24,17 @@
     <ClInclude Include="__vm\.Slide_Chiller_Firmware.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Thermocouple_Library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Metro_M0_Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Thermocouple_Library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Metro_M0_Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
